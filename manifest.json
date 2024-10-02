@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "WhatsApp Translator",
+    "version": "1.0",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_icon": "icon.png" 
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "commands": {
+        "open_languages": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+Y" 
+            },
+            "description": "Open the language selection tab"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://web.whatsapp.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
