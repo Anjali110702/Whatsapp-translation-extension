@@ -24,7 +24,7 @@ The **WhatsApp Translator** is a Chrome extension designed to enhance WhatsApp W
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/whatsapp-translator.git
+    git clone https://github.com/your-username/whatsapp-translator.git](https://github.com/Anjali110702/Whatsapp-translation-extension.git)
     ```
    
 2. **Load the extension in Chrome**:
@@ -45,34 +45,6 @@ The **WhatsApp Translator** is a Chrome extension designed to enhance WhatsApp W
 3. Users can select the source and target languages via a pop-up window, which is built using `popup.html` and `popup.js`. Language preferences are stored in `localStorage`.
 4. The extension modifies the message text displayed in WhatsApp Web, showing the dummy translation.
 
-## Known Issues
 
-- The extension currently uses shuffled dummy text in place of actual translations.
-- Due to WhatsApp Web's dynamic nature, there might be occasional delays in detecting new messages.
-- Some custom emoji and media messages are not altered.
 
-## Future Improvements
-
-- Integrate a full MERN stack implementation to handle real-time translation of messages.
-- Allow the user to choose between actual translation APIs (once resolved) or custom translation models.
-- Improve message detection for non-text elements like emojis, images, and videos.
-
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Create a new Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any inquiries, feel free to contact the project author:  
-**Anjali K S**  
-[Your Email Address]  
-[Your GitHub Profile](https://github.com/your-username)
 
